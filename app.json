@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "index/index",
+    "list/list",
+    "call/call",
+    "wait/wait"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "排队取号",
+    "navigationBarTextStyle": "#000000",
+    "enablePullDownRefresh": true
+  }
+}

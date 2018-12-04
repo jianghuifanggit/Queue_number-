@@ -1,0 +1,16 @@
+<!--wait/index.wxml-->
+<view bindtap="goHome" class="warp">
+<view class="wait_num_head">您的排队号码：</view>
+<button class="back_btn"  bindtap="back"></button>
+<image class="back_img"  src="../images/back1.png"></image>
+<image class="wait_img" src="../images/circle.png"></image>
+<view class="wait_content">
+  <view class="con_bm">{{name}}</view>
+  <view class="con_num">{{code}}</view>
+</view>
+<view class="have_num">前面还有 <text>{{num}}</text> 位</view>
+<view class="foot_text" style='margin-top:100px'>请到等待区等待呼叫</view>
+<view class="foot_text">{{time}}</view>
+    <!-- 背景 -->
+    <image class="background" src="../images/background.png"></image>
+</view>

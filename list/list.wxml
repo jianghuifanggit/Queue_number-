@@ -1,0 +1,15 @@
+<!--list/list.wxml-->
+<view bindtap="goHome" class="warp">
+  <view style='text-align:center;margin-bottom:30px'>
+    <image class="logo" src="../images/logo2.png"></image>
+    <text class="logo_title">力乾窗口列表</text>
+  </view>
+  <view wx:for="{{list}}" wx:for-item="items">
+    <view class="department" data-id='{{items.id}}' bindtap='callNext' data-name='{{items.name}}'>
+      <text>{{items.name}}</text>
+      <text style='float:right'>》</text>
+    </view>
+  </view>
+  <!-- 背景 -->
+  <image class="background" src="../images/background.png"></image>
+</view>

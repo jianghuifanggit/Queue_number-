@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.0",
+	"appid": "wxc68b2a60d880cad5",
+	"projectname": "%E6%8E%92%E9%98%9F%E5%8F%96%E5%8F%B7",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "用户等待",
+					"pathName": "wait/wait",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "呼叫",
+					"pathName": "call/call",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "list/list",
+					"query": ""
+				}
+			]
+		}
+	}
+}

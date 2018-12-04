@@ -1,0 +1,21 @@
+<view bindtap="goHome" class="warp">
+  <view style='text-align:center'>
+    <image class="logo" src="../images/logo2.png"></image>
+    <text class="logo_title">力乾机动车综合服务站</text>
+  </view>
+  <image class='sucai' src='../images/sucai.png'></image>
+  <view wx:for="{{list}}" wx:for-item="items">
+    <view class="department" data-id='{{items.id}}' bindtap='waitNext' data-name='{{items.name}}'>
+      <text>{{items.name}}</text>
+      <text style='float:right'>》</text>
+    </view>
+  </view>
+<!-- 
+<form bindsubmit="submit" report-submit='true' >
+  <button form-type="submit" type="default" size="mini">提交</button>
+</form> -->
+ 
+  <button open-type="getUserInfo">12</button>
+  <!-- 背景 -->
+  <image class="background" src="../images/background.png"></image>
+</view>

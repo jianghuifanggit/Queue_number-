@@ -1,0 +1,66 @@
+/* call/call.wxss */
+@import "../public/public.wxss";
+.wait_num_head{
+  color: #fff;
+  padding: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  float:left;
+}
+.back_btn{
+  width:130px;
+  height:60px;
+  opacity:0
+}
+.back_img{
+ width:30px;
+ height:30px;
+ float: right;
+ padding:20px;
+ margin-top: -50px;
+}
+.wait_img{
+  width:60%;
+  margin: 10px 20%;
+  height: 220px
+}
+.wait_content{
+  color:#fff;
+  margin-top:-180px;
+  text-align: center
+}
+.con_bm{
+  font-size: 1.3em;
+  font-weight: bold
+}
+.con_num{
+  font-size:2em;
+  font-weight: bold
+}
+.have_num{
+  margin-top:130px;
+  text-align: right;
+  padding:20px; 
+  color:#fff;
+  font-size: 1.2em 
+}
+.have_num text{
+  color:red;
+  font-size: 1.5em;
+  padding:10px
+}
+
+.call_btn{
+  width:50%;
+  float:left;
+  margin-top:40px
+}
+.call_btn button{
+width:80%;
+height:60px;
+line-height: 60px;
+color:#fff;
+background: #00b7ee;
+font-size: 1.2em;
+font-weight: bold
+}

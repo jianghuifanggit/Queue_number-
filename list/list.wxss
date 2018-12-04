@@ -1,0 +1,33 @@
+/* list/list.wxss */
+@import "../public/public.wxss";
+
+.logo{
+  width:40px;
+  height:40px;
+  margin-bottom:-10px;
+  margin-top:20px;
+  margin-right:10px;
+}
+
+.logo_title{
+  color:#bb8656;
+  font-size:1.5em;
+  font-weight: bold;
+  
+}
+
+
+.department{
+width:80%;
+height:50px;
+margin:15px 10%;
+background: #3d71c3;
+color:#fff;
+line-height:50px;
+border-radius:10px;
+font-weight: bold;
+font-size: 0.9em
+}
+.department text{
+padding:0 20px
+}

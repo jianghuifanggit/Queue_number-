@@ -1,0 +1,55 @@
+/* wait/index.wxss */
+@import "../public/public.wxss";
+.wait_num_head{
+  color: #fff;
+  padding: 30px;
+  font-size: 1.2em ;
+  float:left;
+  /* font-weight: bold */
+}
+.back_btn{
+  width:130px;
+  height:60px;
+  opacity:0
+}
+.back_img{
+ width:30px;
+ height:30px;
+ float: right;
+ padding:20px;
+ margin-top: -50px;
+}
+.wait_img{
+  width:60%;
+  margin: 10px 20%;
+  height: 220px
+}
+.wait_content{
+  color:#fff;
+  margin-top:-180px;
+  text-align: center
+}
+.con_bm{
+  font-size: 1.5em;
+  font-weight: bold
+}
+.con_num{
+  font-size:2em;
+  font-weight: bold
+}
+.have_num{
+  margin-top:100px;
+  text-align: center;
+  color:#fff;
+  font-size: 1.5em 
+}
+.have_num text{
+  color:red;
+  font-size: 1.8em;
+  padding:10px
+}
+.foot_text{
+  color:#fff;
+  text-align: right;
+  margin:10px 20px
+}
